@@ -6,6 +6,7 @@ import ru.netology.product.data.Product;
 import ru.netology.product.data.Smartphone;
 import ru.netology.product.manager.ProductManager;
 import ru.netology.product.repository.Repository;
+
 public class ManagerTest {
     Repository repository = new Repository();
     ProductManager manager = new ProductManager(repository);
